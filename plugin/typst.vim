@@ -4,7 +4,7 @@ var viewerOpened = 0
 
 # note that global variable does not need to be declared.
 g:typstCompileOnSave = 1
-g:typstPdfViewer = "zathura"
+g:typstPdfViewer = "xdg-open"
 
 def OpenViewer(timerId: number): void
 	if ! viewerOpened
